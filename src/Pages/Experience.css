@@ -1,0 +1,19 @@
+.card {
+    backdrop-filter: blur(10px) saturate(110%);
+    -webkit-backdrop-filter: blur(10px) saturate(100%);
+    background-color: #ffffff2c;
+    border-radius: 5px;
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
+
+/* .image{
+    box-shadow: 5px 5px 10px #2a2ac97c, -5px -5px 10px #2a2ac97c;
+    border-radius: 5px;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.image:hover{
+        box-shadow: 5px 5px 30px #2a2ac97c, -5px -5px 30px #2a2ac97c;
+        border-radius: 10px;
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} */

@@ -1,0 +1,234 @@
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  /* padding-top: 40px; */
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .drop-shadow-icon-1 {
+  position: relative;
+  background: none;
+  border-radius: 50%;
+  margin: 10px;
+  ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgb(224, 31, 9);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .drop-shadow-icon-1:hover {
+  box-shadow: 0px 0px 30px rgb(224, 31, 9);
+  transition: all;
+  animation-duration: 400;
+}
+
+.wrapper .drop-shadow-icon-2 {
+  position: relative;
+  background: none;
+  border-radius: 50%;
+  margin: 10px;
+  ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgb(2, 43, 226);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .drop-shadow-icon-2:hover {
+  box-shadow: 0px 0px 30px rgb(2, 43, 226);
+  transition: all;
+  animation-duration: 400;
+}
+
+.wrapper .drop-shadow-icon-3 {
+  position: relative;
+  background: none;
+  border-radius: 50%;
+  margin: 10px;
+  ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgb(0, 211, 123);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .drop-shadow-icon-3:hover {
+  box-shadow: 0px 0px 30px rgb(0, 211, 123);
+  transition: all;
+  animation-duration: 400;
+}
+
+.wrapper .drop-shadow-icon-4 {
+  position: relative;
+  background: none;
+  border-radius: 50%;
+  margin: 10px;
+  ;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgb(8, 183, 226);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .drop-shadow-icon-4:hover {
+  box-shadow: 0px 0px 30px rgb(8, 183, 226);
+  transition: all;
+  animation-duration: 400;
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: 55px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: rgb(2, 43, 226);
+  color: #fff;
+}
+
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+  background: rgb(0, 211, 123);
+  color: #fff;
+}
+
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: rgb(224, 31, 9);
+  color: #fff;
+}
+
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+  background: rgb(8, 183, 226);
+  color: #fff;
+}
+
+.categories>span {
+  animation: rotateAnimation 20s linear infinite;
+}
+
+.categories {
+  animation: rotateAnimation2 20s linear infinite;
+}
+
+.cat_image {
+  /* animation: imageRotation 20s linear infinite; */
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+
+}
+
+@keyframes rotateAnimation2 {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+
+}
+
+@keyframes imageRotation {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+
+.Typewriter {
+  color: #4d4dff
+}
+
+.Typewriter__wrapper {
+  /* font-family: "Cookie", cursive !important; */
+  font-weight: 300;
+  text-shadow: 0px 0px 5px rgba(69, 98, 223, 0.979);
+  font-size: 40px;
+  font-style: normal;
+}
+
+.Typewriter__cursor {
+  font-weight: 300 !important;
+}
+
+/* Dialog */
+dialog:-internal-dialog-in-top-layer {
+  position: fixed;
+  inset-block-start: 0px;
+  inset-block-end: 0px;
+  max-width: 100%;
+  max-height: 100%;
+  user-select: text;
+  visibility: visible;
+  overflow: auto;
+}
