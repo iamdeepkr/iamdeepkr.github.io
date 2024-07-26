@@ -131,7 +131,7 @@ function App() {
             </div>
           </div>
           <div className='z-50 dark:bg-black/80 bg-white/50 text-center tracking-wider dark:text-white border-t text-black/80 2xl:text-sm text-xs py-2'>
-            Designed By @ R U Bharti
+            Designed By @ Deepak Kumar
           </div>
         </Fade>
 
