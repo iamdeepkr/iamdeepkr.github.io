@@ -120,41 +120,67 @@
 
 
 <script>
+
 (() => {
   const track = document.querySelector('.projects-grid');
-  if (!track || track.dataset.loopReady) return;
+  const slider = document.querySelector('.projects-slider');
+
+  if (!track || !slider || track.dataset.loopReady) return;
 
   track.dataset.loopReady = 'true';
 
-  const originals = [...track.children];
-  if (!originals.length) return;
+  const originalCards = [...track.children];
+  if (!originalCards.length) return;
 
-  originals.forEach(card => track.appendChild(card.cloneNode(true)));
+  originalCards.forEach((card) => {
+    track.appendChild(card.cloneNode(true));
+  });
 
-  let x = 0;
+  let position = 0;
   let previousTime = 0;
+  let loopWidth = 0;
+  let animationId;
+
   const speed = 40;
 
-  function move(time) {
+  function calculateWidth() {
+    loopWidth = track.scrollWidth / 2;
+
+    if (loopWidth > 0) {
+      position %= loopWidth;
+      track.style.transform =
+        `translate3d(${-position}px, 0, 0)`;
+    }
+  }
+
+  function animate(time) {
     if (!track.isConnected) return;
 
     if (previousTime) {
-      x += speed * (time - previousTime) / 1000;
+      const delta = Math.min((time - previousTime) / 1000, 0.05);
 
-      const firstClone = track.children[originals.length];
-      const loopWidth = firstClone.offsetLeft - track.children[0].offsetLeft;
+      position += speed * delta;
 
       if (loopWidth > 0) {
-        x %= loopWidth;
-        track.style.transform = `translate3d(${-x}px, 0, 0)`;
+        position %= loopWidth;
+        track.style.transform =
+          `translate3d(${-position}px, 0, 0)`;
       }
     }
 
     previousTime = time;
-    requestAnimationFrame(move);
+    animationId = requestAnimationFrame(animate);
   }
 
-  requestAnimationFrame(move);
+  calculateWidth();
+
+  window.addEventListener('resize', calculateWidth);
+
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(calculateWidth);
+  }
+
+  animationId = requestAnimationFrame(animate);
 })();
 </script>
 </body>
