@@ -855,6 +855,11 @@ button {
   width: 100%;
 }
 
+.projects-slider {
+  overflow: hidden;
+  width: 100%;
+}
+
 .projects-grid {
   display: flex;
   flex-wrap: nowrap;
@@ -888,7 +893,6 @@ button {
     flex-basis: calc(100vw - 48px);
   }
 }
-
 
 
 
