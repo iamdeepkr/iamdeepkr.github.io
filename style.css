@@ -849,6 +849,55 @@ button {
   opacity: 1;
   transform: translateY(0);
 }
+
+.projects-slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  width: max-content;
+  animation: infiniteScroll 35s linear infinite;
+}
+
+.project-card {
+  flex: 0 0 calc((100vw - 120px) / 4);
+  box-sizing: border-box;
+}
+
+.projects-slider:hover .projects-grid {
+  animation-play-state: paused;
+}
+
+@keyframes infiniteScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@media (max-width: 900px) {
+  .project-card {
+    flex-basis: calc((100vw - 64px) / 2);
+  }
+}
+
+@media (max-width: 600px) {
+  .project-card {
+    flex-basis: calc(100vw - 48px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1000px) {
   .nav-links {
     gap: 15px;
