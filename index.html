@@ -118,32 +118,44 @@
   </main>
   <footer class="footer"><div class="container footer-inner"><span>© <span id="year"></span> Deepak Kumar. All rights reserved.</span><span class="footer-motto">Code <i>·</i> Build <i>·</i> Grow</span></div></footer>
 
+
 <script>
+(() => {
   const track = document.querySelector('.projects-grid');
+  if (!track || track.dataset.loopReady) return;
 
-  if (track && !track.dataset.loopReady) {
-    track.dataset.loopReady = 'true';
-    const originals = [...track.children];
-    originals.forEach(card => {track.appendChild(card.cloneNode(true));});
-    let x = 0;
-    let previousTime = 0;
-    const speed = 40;
+  track.dataset.loopReady = 'true';
 
-    function move(time) {
-      if (previousTime) {
-        x += speed * (time - previousTime) / 1000;
-        const firstClone = track.children[originals.length];
-        const loopWidth = firstClone.offsetLeft - track.children[0].offsetLeft;
-        if (loopWidth > 0) {
-          x %= loopWidth;
-          track.style.transform = `translate3d(${-x}px, 0, 0)`;
-        }
+  const originals = [...track.children];
+  if (!originals.length) return;
+
+  originals.forEach(card => track.appendChild(card.cloneNode(true)));
+
+  let x = 0;
+  let previousTime = 0;
+  const speed = 40;
+
+  function move(time) {
+    if (!track.isConnected) return;
+
+    if (previousTime) {
+      x += speed * (time - previousTime) / 1000;
+
+      const firstClone = track.children[originals.length];
+      const loopWidth = firstClone.offsetLeft - track.children[0].offsetLeft;
+
+      if (loopWidth > 0) {
+        x %= loopWidth;
+        track.style.transform = `translate3d(${-x}px, 0, 0)`;
       }
-      previousTime = time;
-      requestAnimationFrame(move);
     }
+
+    previousTime = time;
     requestAnimationFrame(move);
   }
+
+  requestAnimationFrame(move);
+})();
 </script>
 </body>
 </html>
