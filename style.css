@@ -850,65 +850,431 @@ button {
   transform: translateY(0);
 }
 
-.projects-slider {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
+/* =========================================
+   PROJECTS SECTION
+   Responsive + Infinite Auto Slider
+========================================= */
+
+.projects-section {
   position: relative;
-  padding-bottom: 12px;
+  width: 100%;
+  padding: 90px 0;
+  overflow: hidden;
+}
+
+.projects-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
   box-sizing: border-box;
 }
 
+.projects-section .eyebrow {
+  margin-bottom: 12px;
+}
+
+.projects-section .section-title {
+  margin-bottom: 16px;
+}
+
+.projects-section .section-intro {
+  margin-bottom: 32px;
+}
+
+/* Slider viewport */
+
+.projects-slider {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  isolation: isolate;
+}
+
+/* Moving track */
+
 .projects-grid {
   display: flex;
-  flex-wrap: nowrap;
+  flex-flow: row nowrap;
   align-items: stretch;
   gap: 24px;
   width: max-content;
+  max-width: none;
+  margin: 0;
+  padding: 8px 0 16px;
+  transform: translate3d(0, 0, 0);
   animation: none !important;
   will-change: transform;
 }
 
+/* Project cards */
+
 .project-card {
-  flex: 0 0 clamp(240px, calc((100vw - 120px) / 4), 320px);
+  position: relative;
+  display: flex;
+  flex: 0 0 calc((min(1152px, 100vw - 48px) - 72px) / 4);
+  flex-direction: column;
   min-width: 0;
-  box-sizing: border-box;
+  max-width: none;
   height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 16px;
+  background: #081a2a;
+  color: #eaf2fa;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
-/* Tablet */
+.project-card:hover {
+  border-color: rgba(69, 191, 255, 0.55);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Project visuals */
+
+.project-visual {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 190px;
+  min-height: 190px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      rgba(0, 190, 255, 0.16),
+      transparent 65%
+    ),
+    linear-gradient(135deg, #102b43, #071321);
+}
+
+.visual-uvss {
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 190, 255, 0.18),
+      transparent 65%
+    ),
+    linear-gradient(135deg, #0d2d47, #071321);
+}
+
+.visual-rfid {
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(88, 100, 255, 0.2),
+      transparent 65%
+    ),
+    linear-gradient(135deg, #18264b, #081321);
+}
+
+.visual-vts {
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(0, 220, 170, 0.12),
+      transparent 65%
+    ),
+    linear-gradient(135deg, #103b3b, #071b27);
+}
+
+.visual-symbol {
+  position: relative;
+  z-index: 2;
+  color: #72d8ff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Road illustration */
+
+.road {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  transform: rotate(-15deg) scale(1.5);
+  opacity: 0.35;
+}
+
+.road i {
+  width: 2px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    #74d8ff 0 12px,
+    transparent 12px 24px
+  );
+}
+
+/* RFID illustration */
+
+.rfid-rings {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border: 2px solid rgba(105, 155, 255, 0.65);
+  border-radius: 50%;
+}
+
+.rfid-rings::before,
+.rfid-rings::after {
+  position: absolute;
+  content: "";
+  border: 2px solid rgba(105, 155, 255, 0.45);
+  border-radius: 50%;
+}
+
+.rfid-rings::before {
+  inset: 12px;
+}
+
+.rfid-rings::after {
+  inset: 26px;
+}
+
+/* Vehicle tracking illustration */
+
+.map-path {
+  position: absolute;
+  width: 180px;
+  height: 100px;
+  border: 3px dashed rgba(77, 237, 198, 0.6);
+  border-radius: 48% 30% 50% 25%;
+  transform: rotate(-25deg);
+}
+
+.pin {
+  position: absolute;
+  z-index: 3;
+  color: #5bf1c9;
+  font-size: 24px;
+}
+
+.pin-one {
+  top: 35px;
+  left: 25%;
+}
+
+.pin-two {
+  right: 25%;
+  bottom: 35px;
+}
+
+/* Card content */
+
+.project-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.project-type {
+  margin: 0 0 10px;
+  color: #68d4ff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+}
+
+.project-content h3 {
+  margin: 0 0 12px;
+  color: #f3f8ff;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.project-content > p:not(.project-type) {
+  margin: 0 0 20px;
+  color: #aabaca;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* Technology tags */
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.tags span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border: 1px solid rgba(104, 212, 255, 0.2);
+  border-radius: 6px;
+  background: rgba(104, 212, 255, 0.07);
+  color: #a8e6ff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+/* Ensure reveal animation cannot hide project cards */
+
+#projects .reveal {
+  visibility: visible;
+}
+
+#projects .projects-grid.reveal {
+  opacity: 1;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
 @media (max-width: 900px) {
+  .projects-section {
+    padding: 70px 0;
+  }
+
+  .projects-section .container {
+    padding: 0 24px;
+  }
+
   .projects-grid {
     gap: 20px;
   }
 
   .project-card {
-    flex-basis: calc((100vw - 64px) / 2);
-  }
-}
-
-/* Mobile */
-@media (max-width: 600px) {
-  .projects-slider {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .projects-grid {
-    gap: 16px;
-  }
-
-  .project-card {
-    flex: 0 0 calc(100vw - 48px);
-    min-width: 0;
+    flex-basis: calc((100vw - 68px) / 2);
   }
 
   .project-visual {
+    height: 180px;
     min-height: 180px;
   }
 
   .project-content {
     padding: 20px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 600px) {
+  .projects-section {
+    padding: 56px 0;
+    overflow: hidden;
+  }
+
+  .projects-section .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .projects-section .section-title {
+    font-size: clamp(25px, 7vw, 32px);
+    line-height: 1.25;
+  }
+
+  .projects-section .section-intro {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .projects-slider {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden !important;
+  }
+
+  .projects-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: stretch;
+    gap: 16px;
+    width: max-content !important;
+    max-width: none !important;
+    padding: 6px 0 14px;
+    margin: 0;
+    animation: none !important;
+    will-change: transform;
+  }
+
+  .project-card {
+    display: flex !important;
+    flex: 0 0 calc(100vw - 64px) !important;
+    width: calc(100vw - 64px);
+    min-width: 0;
+    max-width: none !important;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .project-visual {
+    height: 175px;
+    min-height: 175px;
+  }
+
+  .visual-symbol {
+    font-size: 32px;
+  }
+
+  .project-content {
+    display: flex !important;
+    padding: 20px;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .project-content h3 {
+    font-size: 18px;
+  }
+
+  .project-content > p:not(.project-type) {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+
+  .tags {
+    gap: 7px;
+  }
+
+  .tags span {
+    font-size: 10px;
+    padding: 5px 8px;
+  }
+}
+
+/* Respect reduced motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card {
+    transition: none;
   }
 }
 
