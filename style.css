@@ -862,17 +862,12 @@ button {
   gap: 24px;
   width: max-content;
   animation: none !important;
-  will-change: transform;
 }
 
 .project-card {
-  flex: 0 0 calc((min(100vw, 1200px) - 120px) / 4);
+  flex: 0 0 calc((100vw - 120px) / 4);
   min-width: 0;
   box-sizing: border-box;
-}
-
-.projects-slider:hover .projects-grid {
-  animation-play-state: paused;
 }
 
 @media (max-width: 900px) {
@@ -888,19 +883,6 @@ button {
 
   .project-card {
     flex-basis: calc(100vw - 48px);
-  }
-
-  .project-content {
-    overflow-wrap: anywhere;
-  }
-
-  .project-content h3 {
-    font-size: 1.1rem;
-  }
-
-  .project-content p {
-    font-size: 0.9rem;
-    line-height: 1.6;
   }
 }
 
