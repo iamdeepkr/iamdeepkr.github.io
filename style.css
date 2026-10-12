@@ -852,37 +852,63 @@ button {
 
 .projects-slider {
   width: 100%;
+  max-width: 100%;
   overflow: hidden;
   position: relative;
+  padding-bottom: 12px;
+  box-sizing: border-box;
 }
 
 .projects-grid {
   display: flex;
   flex-wrap: nowrap;
+  align-items: stretch;
   gap: 24px;
   width: max-content;
   animation: none !important;
+  will-change: transform;
 }
 
 .project-card {
-  flex: 0 0 calc((100vw - 120px) / 4);
+  flex: 0 0 clamp(240px, calc((100vw - 120px) / 4), 320px);
   min-width: 0;
   box-sizing: border-box;
+  height: auto;
 }
 
+/* Tablet */
 @media (max-width: 900px) {
+  .projects-grid {
+    gap: 20px;
+  }
+
   .project-card {
     flex-basis: calc((100vw - 64px) / 2);
   }
 }
 
+/* Mobile */
 @media (max-width: 600px) {
+  .projects-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+
   .projects-grid {
     gap: 16px;
   }
 
   .project-card {
-    flex-basis: calc(100vw - 48px);
+    flex: 0 0 calc(100vw - 48px);
+    min-width: 0;
+  }
+
+  .project-visual {
+    min-height: 180px;
+  }
+
+  .project-content {
+    padding: 20px;
   }
 }
 
