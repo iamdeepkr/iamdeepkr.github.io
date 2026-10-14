@@ -1469,3 +1469,28 @@ button {
   background: #333333;
   color: #fff;
 }
+
+.skill-icon.json {
+  background: #f0db4f;
+  color: #222;
+}
+
+.skill-icon.rfid {
+  background: #2563eb;
+  color: #fff;
+}
+
+.skill-icon.uvss {
+  background: #7c3aed;
+  color: #fff;
+}
+
+.skill-icon.api-dev {
+  background: #059669;
+  color: #fff;
+}
+
+.skill-icon.anpr {
+  background: #ea580c;
+  color: #fff;
+}
