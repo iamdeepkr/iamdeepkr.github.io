@@ -1454,3 +1454,18 @@ button {
     transform: none;
   }
 }
+
+.skill-icon.python {
+  background: #3776AB;
+  color: #fff;
+}
+
+.skill-icon.fastapi {
+  background: #009688;
+  color: #fff;
+}
+
+.skill-icon.flask {
+  background: #333333;
+  color: #fff;
+}
